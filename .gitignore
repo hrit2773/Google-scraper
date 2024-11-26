@@ -1,0 +1,67 @@
+# Byte-compiled and log files
+*.pyc
+*.pyo
+*.pyd
+*.log
+*.pot
+*.mo
+
+# C extensions
+*.so
+
+# Environment variables
+.env
+.env.*
+
+# Flask instance folder
+instance/
+
+# Database files
+*.db
+*.sqlite
+
+# Pytest and Coverage
+htmlcov/
+.tox/
+.cache
+.coverage
+*.cover
+coverage.xml
+nosetests.xml
+pytestdebug.log
+
+# Virtual environment
+venv/
+env/
+
+# Editor/IDE specific files
+.vscode/
+.idea/
+*.swp
+*.swo
+*.swn
+
+# Deployment files
+*.bak
+*.orig
+*.rej
+
+# Static assets and built files
+build/
+dist/
+*.egg-info/
+.eggs/
+__pycache__/
+
+# Flask cache and uploads
+*.tar.gz
+*.zip
+uploads/
+
+# Logs
+logs/
+*.log
+*.out
+
+# MacOS specific
+.DS_Store
